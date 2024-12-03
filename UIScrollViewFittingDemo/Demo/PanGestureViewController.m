@@ -244,6 +244,9 @@ UIGestureRecognizerDelegate>
         CGFloat scrollViewOffset = -self.collectionView.contentOffset.y;
         CGFloat deltaGestureY = gestureYOffset - self.gestureStartY;
         CGFloat deltaViewOffset = scrollViewOffset - self.scrollViewStartOffsetY;
+        if (deltaGestureY <= 0) {
+            return;
+        }
         CGFloat percent = deltaViewOffset/deltaGestureY;
         [self.functionView addPoint:[PanGestureFunctionPoint pointWithX:scrollViewOffset y:percent * 100]];
     } else {
