@@ -8,6 +8,8 @@
 #import "MainViewController.h"
 #import "DemoCell.h"
 #import "DecelerateViewController.h"
+#import "BouncesViewController.h"
+#import "PanGestureViewController.h"
 
 @interface DemoObj : NSObject
 
@@ -47,8 +49,17 @@ UICollectionViewDelegateFlowLayout
     decelerateDemo.vcClass = DecelerateViewController.class;
     [mArr addObject:decelerateDemo];
     
-    self.demoList = [NSArray arrayWithArray:mArr];
+    DemoObj *bounceDemo = [[DemoObj alloc] init];
+    bounceDemo.title = @"Bounce";
+    bounceDemo.vcClass = BouncesViewController.class;
+    [mArr addObject:bounceDemo];
     
+    DemoObj *panGestureDemo = [[DemoObj alloc] init];
+    panGestureDemo.title = @"PanGesture";
+    panGestureDemo.vcClass = PanGestureViewController.class;
+    [mArr addObject:panGestureDemo];
+    
+    self.demoList = [NSArray arrayWithArray:mArr];
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section

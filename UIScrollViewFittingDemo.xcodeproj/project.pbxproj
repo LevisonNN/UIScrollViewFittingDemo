@@ -18,6 +18,8 @@
 		A56DA4722CFD896D0029386F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A56DA4712CFD896D0029386F /* MainViewController.m */; };
 		A56DA4762CFD8EEF0029386F /* DecelerateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A56DA4752CFD8EEF0029386F /* DecelerateViewController.m */; };
 		A56DA4792CFD909A0029386F /* DemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A56DA4782CFD909A0029386F /* DemoCell.m */; };
+		A56DA47C2CFDBE6F0029386F /* BouncesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A56DA47B2CFDBE6F0029386F /* BouncesViewController.m */; };
+		A56DA47F2CFE20A80029386F /* PanGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A56DA47E2CFE20A80029386F /* PanGestureViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,10 @@
 		A56DA4752CFD8EEF0029386F /* DecelerateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecelerateViewController.m; sourceTree = "<group>"; };
 		A56DA4772CFD909A0029386F /* DemoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoCell.h; sourceTree = "<group>"; };
 		A56DA4782CFD909A0029386F /* DemoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoCell.m; sourceTree = "<group>"; };
+		A56DA47A2CFDBE6F0029386F /* BouncesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BouncesViewController.h; sourceTree = "<group>"; };
+		A56DA47B2CFDBE6F0029386F /* BouncesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BouncesViewController.m; sourceTree = "<group>"; };
+		A56DA47D2CFE20A80029386F /* PanGestureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanGestureViewController.h; sourceTree = "<group>"; };
+		A56DA47E2CFE20A80029386F /* PanGestureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanGestureViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +159,10 @@
 				A56DA4752CFD8EEF0029386F /* DecelerateViewController.m */,
 				A56DA4772CFD909A0029386F /* DemoCell.h */,
 				A56DA4782CFD909A0029386F /* DemoCell.m */,
+				A56DA47A2CFDBE6F0029386F /* BouncesViewController.h */,
+				A56DA47B2CFDBE6F0029386F /* BouncesViewController.m */,
+				A56DA47D2CFE20A80029386F /* PanGestureViewController.h */,
+				A56DA47E2CFE20A80029386F /* PanGestureViewController.m */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -289,8 +299,10 @@
 			files = (
 				A56DA43C2CFD826E0029386F /* AppDelegate.m in Sources */,
 				A56DA4792CFD909A0029386F /* DemoCell.m in Sources */,
+				A56DA47F2CFE20A80029386F /* PanGestureViewController.m in Sources */,
 				A56DA44D2CFD82700029386F /* main.m in Sources */,
 				A56DA4762CFD8EEF0029386F /* DecelerateViewController.m in Sources */,
+				A56DA47C2CFDBE6F0029386F /* BouncesViewController.m in Sources */,
 				A56DA4722CFD896D0029386F /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
